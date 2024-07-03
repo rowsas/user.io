@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding:0;
+
+    background-color: #282626;
+}
+
+.Card {
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+}
+
+button {
+    padding: 20px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 50px;
+    color: rgb(5, 3, 0);
+    background-color: aqua;
+    
+    
+}
+
+.profiles {
+    display: flex ;
+    justify-content: center;
+    
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    
+}
+
+.profile-card {
+    background: rgb(101, 98, 98);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 50px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    margin-bottom: 100px;
+
+}
+
+.profile-card img {
+    border-radius: 50%;
+    width:200px;
+    height: 200px;
+}
+
+.profile-card h3 {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #FFF;
+}
+
+.profile-card p {
+    margin: 5px 0;
+    color: #FFF;
+    font-size: 14px;
+}
+
+.profiles-table {
+    width: 90%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    align-items: center;
+    margin-left: 120px;
+    margin-bottom: 100px;
+}
+
+.profiles-table th,
+.profiles-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    color: #FFF;
+}
+
+.profiles-table th {
+    background-color: #5f5a5a;
+}
+_#fetchButton{
+    padding-top: 50px;
+}
